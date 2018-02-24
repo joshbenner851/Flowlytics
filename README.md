@@ -1,2 +1,2 @@
 # Flowlytics
-An NPM package for getting your dialogflow analytics data
+A very light weight wrapper around the Dialogflow Analytics API Calls
