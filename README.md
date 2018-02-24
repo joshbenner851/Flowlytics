@@ -10,19 +10,19 @@ npm install --save flowlytics
 ## Grabbing Your Tokens
 1) First to grab the tokens you'll need, sign into the [Dialogflow console](https://console.dialogflow.com)
 2) Navigate to the correct agent and Analytics tab
-![First check you're on the agent you want in the top left. Then on the nav bar on the left click the Analytics tab](navigate_to_analytics_tab.png)
+![First check you're on the agent you want in the top left. Then on the nav bar on the left click the Analytics tab](./images/navigate_to_analytics_tab.png)
 3) Here's what the Analytics tab looks like when signed in. Our goal is get rid of having to sign into this and grab this data through their API.
 ![nav bar on the left click the Analytics tab](dialogflow_analytics_overview.png)
 4) The top part of your screen with sessions and the graphs of your sessions and queries/messages over time. This will be known as the Messages Object.
-![The top part of the screen are two graphs, one for sessions over time, and the other with average messages per session](dialogflow_messages_section.png)
+![The top part of the screen are two graphs, one for sessions over time, and the other with average messages per session](./images/dialogflow_messages_section.png)
 5) To actually grab your tokens, open the [dev tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools) in your respective browser
 6) Navigate to the Network tab
-![Navigate to the Network tab. In Chrome on Mac, it's the 3rd tab over to the right from the Elements tab](network_tab_in_dev_tools.png)
+![Navigate to the Network tab. In Chrome on Mac, it's the 3rd tab over to the right from the Elements tab](./images/network_tab_in_dev_tools.png)
 7) In order to get the tokens we need, we need to watch the API calls come in for that data, so refresh the page
 8) Close to the bottom of your network traffic, or if you search/filter by "timeInterval", you'll see the two API calls grabbing the analytics data
-![Screenshot of dev tools filtered by "timeInterval" so only the two Analytics API calls are showing](analytics_api_calls.png)
+![Screenshot of dev tools filtered by "timeInterval" so only the two Analytics API calls are showing](./images/analytics_api_calls.png)
 9) Click on one of them, scroll down on the right to the Request Headers, and you'll want to grab the tokens for: "authorization", "cookie", "user-agent", and "x-xsrf-token".
-![Image of the 4 tokens](tokens_to_grab.png)
+![Image of the 4 tokens](./images/tokens_to_grab.png)
 10) Congrats, you've grabbed your tokens and can now drop them in the configuration step below.
 ```NOTE: As of this writing, I haven't figured out how to automatically refresh the tokens, so they will expire every 7 days and you'll have to sign back in and grab the new one's to drop in your app.```
 
