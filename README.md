@@ -12,7 +12,7 @@ npm install --save flowlytics
 2) Navigate to the correct agent and Analytics tab
 ![First check you're on the agent you want in the top left. Then on the nav bar on the left click the Analytics tab](./images/navigate_to_analytics_tab.png)
 3) Here's what the Analytics tab looks like when signed in. Our goal is get rid of having to sign into this and grab this data through their API.
-![nav bar on the left click the Analytics tab](dialogflow_analytics_overview.png)
+![nav bar on the left click the Analytics tab](./images/dialogflow_analytics_overview.png)
 4) The top part of your screen with sessions and the graphs of your sessions and queries/messages over time. This will be known as the Messages Object.
 ![The top part of the screen are two graphs, one for sessions over time, and the other with average messages per session](./images/dialogflow_messages_section.png)
 5) To actually grab your tokens, open the [dev tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools) in your respective browser
