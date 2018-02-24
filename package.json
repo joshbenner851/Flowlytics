@@ -1,0 +1,30 @@
+{
+  "name": "flowlytics",
+  "version": "1.0.1",
+  "description": "An NPM package for getting your dialogflow analytics data through the unpublished API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshbenner851/Flowlytics.git"
+  },
+  "keywords": [
+    "dialogflow",
+    "Dialogflow",
+    "dialogflow",
+    "analytics",
+    "dialogflow",
+    "api",
+    "api.ai",
+    "api.ai",
+    "analytics"
+  ],
+  "author": "Josh Benner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshbenner851/Flowlytics/issues"
+  },
+  "homepage": "https://github.com/joshbenner851/Flowlytics#readme"
+}
